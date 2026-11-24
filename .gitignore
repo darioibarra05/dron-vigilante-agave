@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generados por el entrenamiento / scripts
+runs/
+data/dataset/
+*.cache
+
+# Pesos descargados automáticamente (los que se quieran conservar van en modelos/)
+/yolov8*.pt
+/yolo11*.pt
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

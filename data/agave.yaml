@@ -1,0 +1,15 @@
+# Clases del modelo (fuente única de verdad).
+# preparar_dataset.py usa este archivo para generar data/dataset/dataset.yaml,
+# que es el que lee YOLO para entrenar.
+# NO cambiar el orden: el número de cada clase va escrito en las etiquetas.
+# Clases nuevas, siempre al final.
+
+names:
+  0: agave_sano
+  1: picudo
+  2: marchitez_fusarium
+  3: pudricion_blanda
+  4: mancha_gris
+  5: escama_armada
+  6: piojo_harinoso
+  7: estres_hidrico
